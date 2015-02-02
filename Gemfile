@@ -23,6 +23,9 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'zeus'
 end
 group :production do
   gem 'pg'
